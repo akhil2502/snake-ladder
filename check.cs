@@ -6,15 +6,10 @@ namespace SnakeLadderSimulation
 {
     class Snakeladdersimulation
     {
-        // constants
         const int noPlay = 0;
         const int ladder = 1;
         const int snake = 2;
-        // variable
         static int playerPosition = 0;
-        /// <summary>
-        /// This method is used to choose the option.
-        /// </summary>
         public static void selectOption()
         {
             // variables
@@ -48,9 +43,6 @@ namespace SnakeLadderSimulation
                 }
             }
         }
-        /// <summary>
-        /// getDie method is used to get the random die value.
-        /// </summary>
         public static int getDie()
         {
             Random random = new Random();
