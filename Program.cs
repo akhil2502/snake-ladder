@@ -6,8 +6,8 @@ namespace snake_ladder
     {
         static void Main(string[] args)
         {
-            position  = new position();
-            position.start();
+             snake_ladder = new snake_ladder ();
+            snake_ladder.getdie();
         }
     }
 }
