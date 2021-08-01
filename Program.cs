@@ -7,7 +7,7 @@ namespace snake_ladder
         static void Main(string[] args)
         {
              snake_ladder = new snake_ladder ();
-            snake_ladder.getdie();
+            snake_ladder.check();
         }
     }
 }
